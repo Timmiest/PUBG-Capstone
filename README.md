@@ -48,7 +48,7 @@ The telemetry data contains every action which happens throughout a game. For ea
 *   Every death (Victim/killer location, damage type, weapon used, gamestate, timestamp)
 *   Landing location and location at each gamestate for the 9 key players identified before
 
-The match data was saved as a JSON, and the telemetry data for each match was saved as a CSV file. These were then compiled into a dataframe and joined together. (link joining notebook)
+The match data was saved as a JSON, and the telemetry data for each match was saved as a CSV file. These were then compiled into a dataframe and joined together. 
 
 With this information, it is then possible to effectively recreate an overview of the match, as shown below. The dotted line is the initial flight path, the circles are each gamestate play area, and the triangles are the location of each death, coloured by the gamestate (green-red-blue).
 
